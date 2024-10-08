@@ -1,0 +1,24 @@
+# Компилированные файлы Java
+*.class
+
+# Логи и временные файлы
+*.log
+*.tmp
+
+# Каталоги для сборки
+/build/
+/target/
+
+# Файлы IDE
+.idea/
+*.iml
+.classpath
+.project
+
+# Игнорировать Maven и Gradle артефакты
+/.mvn/
+/.gradle/
+/!gradle-wrapper.jar
+
+# Игнорировать файлы конфигурации среды разработки
+/.settings/
